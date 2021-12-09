@@ -1,0 +1,271 @@
+.fore {
+  position: relative;
+  z-index: 2;
+  height: auto;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /*margin-top:50px;*/
+}
+
+.fore .ribbonB {
+  -webkit-transform: skew(170deg);
+          transform: skew(170deg);
+  border-radius: 15px 0px 15px 0px;
+  height: 80px;
+  width: 45px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0659bb), color-stop(#0063be), color-stop(#006cc0), color-stop(#0075c2), color-stop(#007ec2), color-stop(#0086c6), color-stop(#078fca), color-stop(#1597ce), color-stop(#1ba2d8), color-stop(#22ade1), color-stop(#2ab9ea), to(#32c4f3));
+  background: linear-gradient(to bottom, #0659bb, #0063be, #006cc0, #0075c2, #007ec2, #0086c6, #078fca, #1597ce, #1ba2d8, #22ade1, #2ab9ea, #32c4f3);
+  float: left;
+  margin-left: 25px;
+  -webkit-box-shadow: 0px 0px 3px 11px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+  -webkit-animation: ribbonB 1s linear 2s 1;
+          animation: ribbonB 1s linear 2s 1;
+}
+
+.fore .ribbonM {
+  -webkit-transform: skew(170deg);
+          transform: skew(170deg);
+  border-radius: 15px 0px 15px 0px;
+  height: 135px;
+  width: 45px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0659bb), color-stop(#0063be), color-stop(#006cc0), color-stop(#0075c2), color-stop(#007ec2), color-stop(#0086c6), color-stop(#078fca), color-stop(#1597ce), color-stop(#1ba2d8), color-stop(#22ade1), color-stop(#2ab9ea), to(#32c4f3));
+  background: linear-gradient(to bottom, #0659bb, #0063be, #006cc0, #0075c2, #007ec2, #0086c6, #078fca, #1597ce, #1ba2d8, #22ade1, #2ab9ea, #32c4f3);
+  float: left;
+  margin-left: 20px;
+  -webkit-box-shadow: 0px 0px 3px 11px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+  -webkit-animation: ribbonM 1s linear 2s 1;
+          animation: ribbonM 1s linear 2s 1;
+}
+
+.fore .ribbonT {
+  -webkit-transform: skew(170deg);
+          transform: skew(170deg);
+  border-radius: 15px 0px 15px 0px;
+  height: 190px;
+  width: 45px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0659bb), color-stop(#0063be), color-stop(#006cc0), color-stop(#0075c2), color-stop(#007ec2), color-stop(#0086c6), color-stop(#078fca), color-stop(#1597ce), color-stop(#1ba2d8), color-stop(#22ade1), color-stop(#2ab9ea), to(#32c4f3));
+  background: linear-gradient(to bottom, #0659bb, #0063be, #006cc0, #0075c2, #007ec2, #0086c6, #078fca, #1597ce, #1ba2d8, #22ade1, #2ab9ea, #32c4f3);
+  float: left;
+  margin-left: 25px;
+  -webkit-box-shadow: 0px 0px 3px 11px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+  -webkit-animation: ribbonT 1s linear 2s 1;
+          animation: ribbonT 1s linear 2s 1;
+}
+
+.fore .left {
+  margin-top: 115px;
+}
+
+.fore .left .text {
+  margin-top: 10px;
+}
+
+.fore .mid {
+  margin-top: 60px;
+}
+
+.fore .mid .text {
+  margin-top: 40px;
+}
+
+.fore .right {
+  margin-top: 6px;
+}
+
+.backA {
+  position: absolute;
+  z-index: 0;
+  top: 50.6%;
+  left: 45%;
+  -webkit-transform: translate(-46%, -45%);
+          transform: translate(-46%, -45%);
+}
+
+.backA .back-left {
+  border-radius: 15px 0px 15px 0px;
+  margin-top: -81px;
+  margin-left: 60px;
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+  height: 80px;
+  width: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eb0d0d), color-stop(#f00037), color-stop(#ed0057), color-stop(#e50773), color-stop(#d62c8c), color-stop(#cb3696), color-stop(#bf3e9f), color-stop(#b246a7), color-stop(#ab45a8), color-stop(#a444aa), color-stop(#9c44ab), to(#9443ac));
+  background: linear-gradient(to bottom, #eb0d0d, #f00037, #ed0057, #e50773, #d62c8c, #cb3696, #bf3e9f, #b246a7, #ab45a8, #a444aa, #9c44ab, #9443ac);
+  -webkit-animation: ribbonB 1s linear 2s 1;
+          animation: ribbonB 1s linear 2s 1;
+}
+
+.backA .back-right {
+  border-radius: 15px 0px 15px 0px;
+  margin-top: -135px;
+  margin-left: 122px;
+  -webkit-transform: skew(15deg);
+          transform: skew(15deg);
+  height: 130px;
+  width: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eb0d0d), color-stop(#f00037), color-stop(#ed0057), color-stop(#e50773), color-stop(#d62c8c), color-stop(#cb3696), color-stop(#bf3e9f), color-stop(#b246a7), color-stop(#ab45a8), color-stop(#a444aa), color-stop(#9c44ab), to(#9443ac));
+  background: linear-gradient(to bottom, #eb0d0d, #f00037, #ed0057, #e50773, #d62c8c, #cb3696, #bf3e9f, #b246a7, #ab45a8, #a444aa, #9c44ab, #9443ac);
+  -webkit-animation: ribbonM 1s linear 2s 1;
+          animation: ribbonM 1s linear 2s 1;
+}
+
+@-webkit-keyframes ribbonT {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  11% {
+    opacity: 1;
+    height: 50px;
+  }
+  12% {
+    opacity: 1;
+    height: 60px;
+  }
+  35% {
+    height: 150px;
+  }
+  46% {
+    opacity: 1;
+    height: 190px;
+  }
+  to {
+    height: 190px;
+    opacity: 1;
+  }
+}
+
+@keyframes ribbonT {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  11% {
+    opacity: 1;
+    height: 50px;
+  }
+  12% {
+    opacity: 1;
+    height: 60px;
+  }
+  35% {
+    height: 150px;
+  }
+  46% {
+    opacity: 1;
+    height: 190px;
+  }
+  to {
+    height: 190px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ribbonM {
+  from {
+    opacity: 1;
+    height: 0px;
+  }
+  11% {
+    height: 50px;
+  }
+  12% {
+    height: 70px;
+  }
+  35% {
+    height: 110px;
+  }
+  46% {
+    height: 135px;
+    left: auto;
+    right: 0;
+    /*width: 0;*/
+    opacity: 1;
+  }
+  to {
+    height: 135px;
+    opacity: 1;
+  }
+}
+
+@keyframes ribbonM {
+  from {
+    opacity: 1;
+    height: 0px;
+  }
+  11% {
+    height: 50px;
+  }
+  12% {
+    height: 70px;
+  }
+  35% {
+    height: 110px;
+  }
+  46% {
+    height: 135px;
+    left: auto;
+    right: 0;
+    /*width: 0;*/
+    opacity: 1;
+  }
+  to {
+    height: 135px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ribbonB {
+  from {
+    opacity: 1;
+    height: 0px;
+  }
+  11% {
+    height: 20px;
+  }
+  12% {
+    height: 30px;
+  }
+  35% {
+    height: 60px;
+  }
+  46% {
+    height: 80px;
+    opacity: 1;
+  }
+  to {
+    height: 80px;
+    opacity: 1;
+  }
+}
+
+@keyframes ribbonB {
+  from {
+    opacity: 1;
+    height: 0px;
+  }
+  11% {
+    height: 20px;
+  }
+  12% {
+    height: 30px;
+  }
+  35% {
+    height: 60px;
+  }
+  46% {
+    height: 80px;
+    opacity: 1;
+  }
+  to {
+    height: 80px;
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=ribbon.css.map */

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #CEDAE5;
+}
+
+.container{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#logo{
+    animation: fill 0.1s ease forwards 2.5s, text 3s 1 ; 
+    margin-bottom: 20px; 
+    background-color: #CEDAE5;
+    position: relative;
+    margin-top: 20px;
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 425.24993896484375;
+    stroke-dashoffset: 425.24993896484375;
+    animation: fillBlue 2s ease forwards 2s;  
+}
+#logo path:nth-child(2){
+    stroke-dasharray: 522.4321899414062;
+    stroke-dashoffset: 522.4321899414062;
+    animation: fillBlue 2s ease forwards 2s;
+}
+#logo path:nth-child(3){
+    stroke-dasharray: 495.62567138671875;
+    stroke-dashoffset: 495.62567138671875;
+    animation: line-anim 0.5s ease forwards 0.6s;
+}
+#logo path:nth-child(4){
+    stroke-dasharray: 578.0529174804688;
+    stroke-dashoffset: 578.0529174804688;  
+    animation: line-anim 0.5s ease forwards 0.9s; 
+}
+#logo path:nth-child(5){
+    stroke-dasharray: 324.2802734375;
+    stroke-dashoffset: 324.2802734375;
+    animation: line-anim 0.5s ease forwards 1s;
+}
+#logo path:nth-child(6){
+    stroke-dasharray: 522.7767944335938;
+    stroke-dashoffset: 522.7767944335938;
+    animation: line-anim 0.5s ease forwards 1.1s;
+}
+#logo path:nth-child(7){
+    stroke-dasharray: 355.7822265625;
+    stroke-dashoffset: 355.7822265625;
+    animation: line-anim 0.5s ease forwards 1.3s;
+}
+#logo path:nth-child(8){
+    stroke-dasharray: 238.9202880859375;
+    stroke-dashoffset: 238.9202880859375;
+    animation: line-anim 0.5s ease forwards 1.4s;
+}
+#logo path:nth-child(9){
+    stroke-dasharray: 578.0538940429688;
+    stroke-dashoffset: 578.0538940429688;
+    animation: line-anim 0.5s ease forwards 1.6s;
+}
+#logo path:nth-child(10){
+    stroke-dasharray: 651.2568969726562;
+    stroke-dashoffset: 651.2568969726562;
+    animation: line-anim 0.5s ease forwards 1.7s;
+}
+#logo path:nth-child(11){
+    stroke-dasharray: 495.6278991699219;
+    stroke-dashoffset: 495.6278991699219;
+    animation: line-anim 1s ease forwards 1.9s;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill:white;
+    }
+}
+@keyframes fillBlue{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill:#4098ff;
+    }
+}
+
+.text2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #4098ff;
+}
+
+@keyframes text{
+    0%{
+        color:#CEDAE5;
+        margin-bottom:-40px;
+    }
+    30%{
+        margin-bottom:-40px;
+    }
+    85%{
+        margin-bottom:-40px;
+    }
+   
+}
